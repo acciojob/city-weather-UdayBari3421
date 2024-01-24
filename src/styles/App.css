@@ -16,7 +16,7 @@
     padding: 20px;
 }
 
-.data {
+.weather {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,6 @@
     margin: auto;
 }
 
-.data h1 {
+.weather h1 {
     font-size: 40px;
 }

@@ -28,12 +28,16 @@ const App = () => {
   return (
     <div className="top">
       <form onSubmit={dataHandle}>
-        <input type="text" onChange={(e) => setQuery(e.target.value)} />
+        <input
+          type="text"
+          className="search"
+          onChange={(e) => setQuery(e.target.value)}
+        />
         <button type="submit">Search</button>
       </form>
       <div className="bottom">
         {data && (
-          <div className="data">
+          <div className="weather">
             <p style={{ fontSize: "20px" }}>{data.name}</p>
             <h1>{Math.round(data.main.temp - 273.15)}°C</h1>
             <p style={{ fontSize: "18px" }}>{data.weather[0].description}</p>
