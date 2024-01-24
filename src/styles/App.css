@@ -16,6 +16,14 @@
     padding: 20px;
 }
 
+input,
+button {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+    margin-inline: 5px;
+}
+
 .weather {
     padding-top: 20px;
     display: flex;

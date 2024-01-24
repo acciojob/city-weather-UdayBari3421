@@ -30,6 +30,7 @@ const App = () => {
     <div className="top">
       <form onSubmit={dataHandle}>
         <input
+          placeholder="Enter a city"
           type="text"
           className="search"
           onChange={(e) => setQuery(e.target.value)}
