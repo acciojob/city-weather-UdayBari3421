@@ -23,6 +23,7 @@ const App = () => {
       .catch((error) => {
         console.error(error);
       });
+    e.target.reset();
   }
 
   return (
